@@ -1,0 +1,50 @@
+.app{
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: #dadbd3;
+}
+.app_body{
+  display: flex;
+  background-color: #ededed;
+  height:90vh ;
+  width: 90vw;
+  box-shadow: -1px 4px 20px -6px black;
+}
+.app_body2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  padding-bottom: 40px;
+  flex-direction: column;
+  background-color: #ededed;
+  margin-top: -50px;
+  box-shadow: -1px 4px 20px -6px black;
+}
+.mybutton{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid green;
+  color: green;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.mybutton:hover{
+  background-color: green !important;
+  color: white !important;
+}
+.mycolor{
+  color: #00a85a !important;
+  text-transform: capitalize;
+
+}
+.logoimage{
+  object-fit: contain;
+  max-width: 400px;
+  max-height: 400px;
+}

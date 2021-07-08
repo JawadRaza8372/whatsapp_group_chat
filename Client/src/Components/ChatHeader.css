@@ -1,0 +1,19 @@
+.Chatheader{
+display: flex;
+padding: 10px;
+cursor: pointer;
+border-bottom: 1px solid #f6f6f6;
+}
+.Chatheader:hover{
+    background-color: #ebebeb;
+}
+.Chatheader_info > h2{
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.Chatheader_info > p{
+    font-size: 12px;
+}
+.Chatheader_info {
+    margin-left: 15px;
+}
