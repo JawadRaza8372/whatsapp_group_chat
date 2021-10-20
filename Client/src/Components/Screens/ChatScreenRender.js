@@ -26,7 +26,9 @@ function ChatScreenRender({ messages, userData, getUserData, myroomData }) {
                   userData={userData}
                   allroomdata={myroomData}
                 />
-              ) : null}
+              ) : (
+                <div className="chat_body" />
+              )}
             </div>
           </div>
         </>
